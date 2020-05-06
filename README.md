@@ -1,3 +1,4 @@
+![Guten Shop](https://i.ibb.co/x8CB6Rp/Guten.png)
 # GutenShop-Ecommerce-Website
 
 ### 👷 UNDER CONSTRUCTION 🚧🚧🚧🚧
