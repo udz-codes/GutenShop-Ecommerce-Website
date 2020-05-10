@@ -1,3 +1,4 @@
+// const path = require('path');
 const express = require('express');
 const mongoose = require('mongoose');
 const morgan = require('morgan');
@@ -18,6 +19,10 @@ const orderRoutes = require('./routes/order');
 //app
 const app = express();
 
+// app.use(express.static(path.join(__dirname, 'build')));
+// app.get('/:id', function(req, res) {
+//   res.sendFile(path.join(__dirname, 'build', 'index.html'));
+// });
 
 //Database
 mongoose
@@ -48,3 +53,4 @@ const port = process.env.PORT || 8000
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`)
 });
+
