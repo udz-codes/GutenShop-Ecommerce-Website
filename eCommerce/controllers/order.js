@@ -32,28 +32,9 @@ exports.create = (req, res) => {
         // order.address
         // order.products.length
         // order.amount
-        // const emailData = {
-        //     to: 'kaloraat@gmail.com',
-        //     from: 'noreply@ecommerce.com',
-        //     subject: `A new order is received`,
-        //     html: `
-        //     <p>Customer name:</p>
-        //     <p>Total products: ${order.products.length}</p>
-        //     <p>Total cost: ${order.amount}</p>
-        //     <p>Login to dashboard to the order in detail.</p>
-        // `
-        // };
-        // sgMail.send(emailData);
-        // res.json(data);
-        // User.find({ categories: { $in: categories } }).exec((err, users) => {}
-        console.log('ORDER IS JUST SAVED >>> ', order);
-        // send email alert to admin
-        // order.address
-        // order.products.length
-        // order.amount
         const emailData = {
-            to: 'kaloraat@gmail.com', // admin
-            from: 'noreply@ecommerce.com',
+            to: 'ujjwal2699singh@gmail.com', // admin
+            from: 'noreply@guttenshop.com',
             subject: `A new order is received`,
             html: `
             <h1>Hey Admin, Somebody just made a purchase in your ecommerce store</h1>
