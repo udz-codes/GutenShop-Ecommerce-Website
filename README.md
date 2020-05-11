@@ -1,6 +1,6 @@
 ![Guten Shop](https://i.ibb.co/x8CB6Rp/Guten.png)
 ## GutenShop - Ecommerce platform to sell e-books (digital products)
-[Gutten Shop](https://gutten-shop.herokuapp.com/)
+### Project Demo: [Gutten Shop](https://gutten-shop.herokuapp.com/)
 ---
 #### Before running the app, make sure you have the following installed
 ##### [NodeJS](https://nodejs.org/en/)
